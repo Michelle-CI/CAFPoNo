@@ -1,0 +1,11 @@
+methods: [RESIT, SCORE, NPVar, AbPNLMulti, CAFPoNoMulti]
+num_trials: 10
+save: True
+data:
+  num_variables: 4
+  # num_samples: 1000
+  # seed: null
+  tgt_snratio: 1.
+  tgt_mean: .5
+  tgt_var: .01
+  n_to_one: PostNonlinearNToOne

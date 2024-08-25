@@ -1,0 +1,43 @@
+data_dir: data/sachs/
+NPVar:  
+  verbose: False
+  method: mgcv
+CAM:
+  seed: 0 
+SCORE:
+  seed: 0
+RESIT:
+  seed: 0
+AbPNLMulti:
+  logdir: abpnl_results
+  max_workers: 4
+  n_trials: 1
+  pruning_threshold: 0.95
+  n_epoch: 300
+  n_units: 64
+  n_layers: 2
+  activation: F.leaky_relu
+  loss_balance: 0.5
+  batchsize: 128
+  dropout: True
+  optimizer: Adam
+  learning_rate: 1.e-3
+  interval_test: 1
+  interval_save: -1
+  train_ratio: 0.6
+  verbose: False
+  seed: 0
+
+CAFPoNoMulti:
+  model_Y: 
+    model_name: CDFFlow
+    hidden_sizes: 64
+    base_dist: normal
+    k: 12
+  train_ratio: .6
+  batch_size: 128
+  epochs: 300
+  weight_decay: 0
+  verbose: False
+  n_jobs: 4
+  seed: 0

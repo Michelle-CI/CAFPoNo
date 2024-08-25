@@ -1,5 +1,4 @@
-methods: [CAFPoNo]
-# methods: [ANM, PNL, CAREFL, AbPNL, RECI, LOCI, CAFPoNo]
+methods: [ANM, PNL, CAREFL, AbPNL, RECI, LOCI, CAFPoNo]
 run: True
 save: True
 num_samples: NULL

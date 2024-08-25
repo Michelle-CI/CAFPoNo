@@ -1,0 +1,12 @@
+model_Y: 
+  model_name: CDFFlow
+  hidden_sizes: 64
+  base_dist: normal
+  k: 12
+train_ratio: 1.0 #.6
+batch_size: 128
+# epochs: 10
+weight_decay: 0.0
+verbose: False
+n_jobs: 4
+seed: 100
