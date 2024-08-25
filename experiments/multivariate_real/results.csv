@@ -1,5 +1,5 @@
 Method,gt_A,pred_A,pred_order,full_A,SHD,SID,Missing,Reverse,Extra,D_order,Cfg
-OursMulti,"[[0 1 0 0 0 0 0 0 0 0 0]
+CAFPoNoMulti,"[[0 1 0 0 0 0 0 0 0 0 0]
  [0 0 0 0 0 1 0 0 0 0 0]
  [0 0 0 1 1 0 0 0 0 0 0]
  [0 0 0 0 0 0 0 0 0 0 0]
