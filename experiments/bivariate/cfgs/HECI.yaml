@@ -1,0 +1,4 @@
+n_bins: 20
+standardize: False
+seed: 0
+n_jobs: 20

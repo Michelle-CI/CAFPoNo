@@ -1,0 +1,9 @@
+methods: [CAFPoNo]
+# methods: [ANM, PNL, CAREFL, AbPNL, RECI, LOCI, CAFPoNo]
+run: True
+save: True
+num_samples: NULL
+save_file: Simulation.csv
+data_names: [PNL_gaussian_noise, PNL_laplace_noise, PNL_uniform_noise, PNL_GP, LS, AN]
+# save_file: Tuebingen.csv
+# data_names: [Tuebingen]

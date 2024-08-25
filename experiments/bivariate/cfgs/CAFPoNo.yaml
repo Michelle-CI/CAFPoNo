@@ -1,0 +1,15 @@
+model_X:  
+  model_name: SingleCDFFlow
+  base_dist: normal
+  k : 32
+model_Y: 
+  model_name: CDFFlow
+  hidden_sizes: 256
+  base_dist: normal
+  k: 12
+batch_size: 128
+epochs: 300
+weight_decay: 0.0
+verbose: False
+seed: 0
+n_jobs: 20

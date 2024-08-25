@@ -1,0 +1,2 @@
+n_jobs: 20
+ref_measure: gaussian

@@ -1,0 +1,6 @@
+hidden_sizes: [32, 32]
+batch_size: 128
+epochs: 300
+weight_decay: 0.0
+seed: 0
+n_jobs: 20
